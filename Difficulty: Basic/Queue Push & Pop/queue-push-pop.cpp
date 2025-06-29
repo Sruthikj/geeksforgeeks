@@ -1,19 +1,21 @@
-class Solution {
-  public:
-    queue<int> fillQ(const vector<int>& arr) {
-        // code here
-        queue<int> q;
-        for(int i=0;i<arr.size();i++){
-            q.push(arr[i]);
-        }
-        return q;
-    }
+// User function Template for C++
 
-    void emptyQ(queue<int>& q) {
-        while(!q.empty()){
-            cout<<q.front()<<" ";
-            q.pop();
-        }
-        cout<<endl;
+// User function Template for C++
+
+queue<int> _push(vector<int> &arr) {
+    // return a queue with all elements of arr inserted in it
+    queue<int> q;
+    for(int i=0;i<arr.size();i++){
+        q.push(arr[i]);
     }
-};
+    return q;
+}
+
+void _pop(queue<int> &q) {
+    // print front and dequeue for each element until it becomes empty
+    while(!q.empty()){
+        cout<<q.front()<<" ";
+        q.pop();
+    }
+    //cout<<endl;
+}
