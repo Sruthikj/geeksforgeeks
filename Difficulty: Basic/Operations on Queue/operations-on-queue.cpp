@@ -19,21 +19,20 @@ class Solution {
         
     int front(queue<int> &q) {
         // Your code here
-        int val = q.front();
-        return val;
+        return q.front();
     }
 
         
     // Function to find an element in the queue.
-    string find(queue<int> q, int x) {
+    bool find(queue<int> q, int y) {
         // Your code here
         while(!q.empty()){
-            if(q.front() == x){
-                return "Yes";
+            if(q.front() == y){
+                return true;
             }else{
-                q.pop();    
+                q.pop();
             }
         }
-        return "No";
+        return false;
     }
 };
