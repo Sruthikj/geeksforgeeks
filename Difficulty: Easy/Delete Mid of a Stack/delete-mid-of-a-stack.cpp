@@ -1,22 +1,26 @@
+// User function template for C++
+
 class Solution {
   public:
     // Function to delete middle element of a stack.
     void deleteMid(stack<int>& s) {
-        int middle = ((s.size() + 1)/2)-1;
+        int mid = ((s.size()+1)/2)-1;
         
-        stack<int> s1;
-        for(int i=s.size()-1;i>=middle;i--){
-            if(i!=middle){
-                s1.push(s.top());
+        stack<int> st;
+        
+        for(int i=s.size()-1;i>=mid;i--){
+            if(i!=mid){
+                st.push(s.top());
                 s.pop();
             }else{
                 s.pop();
             }
         }
-        while(!s1.empty()){
-            int t = s1.top();
-            s.push(t);
-            s1.pop();
+        
+        while(!st.empty()){
+            s.push(st.top());
+            st.pop();
         }
+        
     }
 };
