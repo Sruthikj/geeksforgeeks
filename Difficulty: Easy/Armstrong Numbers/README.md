@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1">Armstrong Numbers</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given a positive integer <strong>n</strong>, determine whether it is an Armstrong number or not.</span></p><p><span style="font-size: 14pt;">An Armstrong number is a number where, sum of each digit raised to the power digit count, is equal to the original number.</span></p><p><span style="font-size: 18px;"><strong>Examples:</strong></span></p><pre><span style="font-size: 18px;"><strong>Input</strong>: n = 153
+<strong>Output:</strong> true
+<strong>Explanation</strong>: 1<sup>3 </sup>+ 5<sup>3 </sup>+ 3<sup>3</sup> = 153, which is equal to the original number.</span>
+</pre><pre><span style="font-size: 18px;"><strong>Input: </strong>n = 1634<br>Output: true
+<strong>Explanation</strong>: 1<sup>4</sup> + 6<sup>4</sup> + 3<sup>4</sup> + 4<sup>4</sup> = 1634, which is equal to the original number.<br></span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 100
+<strong>Output: </strong>false
+<strong>Explanation</strong>: 1<sup>3</sup> + 0<sup>3</sup> + 0<sup>3 </sup>= 1, which is not equal to 100.</span></pre></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>Oracle</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematics</code>&nbsp;
