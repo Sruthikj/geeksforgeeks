@@ -1,10 +1,9 @@
 class Solution {
     public ArrayList<Integer> getMinMax(int[] arr) {
         // code Here
+        ArrayList<Integer> l1 = new ArrayList<Integer>();
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        
-        ArrayList l1 = new ArrayList();
         
         for(int i=0;i<arr.length;i++)
         {
@@ -17,10 +16,8 @@ class Solution {
                 min = arr[i];
             }
         }
-        
         l1.add(min);
         l1.add(max);
-        
         return l1;
     }
 }
